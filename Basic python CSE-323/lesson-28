@@ -1,0 +1,15 @@
+# This is a single-line comment
+
+def multiply(x, y):
+    """
+    This function takes two numbers and returns their product.
+    :param x: First number
+    :param y: Second number
+    :return: Product of x and y
+    """
+    return x * y 
+
+# Function call
+result = multiply(4, 5)  
+
+print("Product:", result) 

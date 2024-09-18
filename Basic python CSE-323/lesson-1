@@ -1,0 +1,7 @@
+#use print function: 
+print('Hello World')
+
+print('This is my first python code')
+print('My name is: Absar Mahmud')
+
+print(' Absar ' * 10)

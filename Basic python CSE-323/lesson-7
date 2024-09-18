@@ -1,0 +1,9 @@
+#function/method in upper.lower.find.replace.variable_true/false
+course_name = 'Artificial Intelligence and Expert System'
+
+print(len(course_name))
+print(course_name.upper())
+print(course_name.lower())
+print(course_name.find('Intellegence'))
+print(course_name.replace('Artificial','AI'))
+print('Artificial' in course_name)

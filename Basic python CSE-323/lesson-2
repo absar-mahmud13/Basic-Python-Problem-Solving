@@ -1,0 +1,14 @@
+#use the variables:
+ai_box = 'Write some ai tools'
+print(ai_box)
+
+age = 20
+weight =62.24
+name ='Absar Mahmud'
+good_programmer = True
+
+print(age)
+print('age')
+print(weight)
+print(name)
+print(good_programmer)

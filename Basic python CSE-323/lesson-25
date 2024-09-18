@@ -1,0 +1,13 @@
+# Function to calculate square of a number
+def square(num):
+    return num * num
+
+def full_name(first_name, last_name):
+    return f"{first_name} {last_name}"
+
+def average(numbers):
+    return sum(numbers) / len(numbers)
+
+print("Square of 5:", square(5))
+print("Full name:", full_name("Absar", "Mahmud"))
+print("Average:", average([10, 20, 30, 40]))

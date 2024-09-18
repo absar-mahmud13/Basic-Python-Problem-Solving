@@ -1,0 +1,11 @@
+import os
+directory = "."
+
+for item in os.listdir(directory):
+    
+    item_path = os.path.join(directory, item)
+    
+    if os.path.isdir(item_path):
+        print(f"Directory: {item}")
+    else:
+        print(f"File: {item}")

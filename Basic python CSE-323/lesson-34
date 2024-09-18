@@ -1,0 +1,10 @@
+import sys
+import pkgutil
+
+# Get a sorted list of all available modules
+available_modules = sorted([module.name for module in pkgutil.iter_modules()])
+
+# Print the list of available modules
+print("Available Modules:")
+for module in available_modules:
+    print(module)

@@ -1,0 +1,7 @@
+ # Formula from Celsius to Fahrenheit = (Celsius * (9/5))+32 
+
+celsius = input('Temperature in Celsius: ')
+Celsius = int(celsius)
+Fahrenheit = (Celsius * (9/5))+32
+
+print(f"{Fahrenheit}F")

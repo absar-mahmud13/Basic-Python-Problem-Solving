@@ -1,0 +1,16 @@
+# Dictionary mapping text to emojis
+emoji_dict = {
+    ":smile:": "😄",
+    ":heart:": "❤️",
+    ":thumbs_up:": "👍",
+    ":sun:": "☀️",
+    ":star:": "⭐"
+}
+def convert_to_emoji(text):
+    for key, value in emoji_dict.items():
+        text = text.replace(key, value)
+    return text
+
+text = "Hello :smile: I love coding! :heart: Have a great day! :sun: ⭐"
+converted_text = convert_to_emoji(text)
+print(converted_text)

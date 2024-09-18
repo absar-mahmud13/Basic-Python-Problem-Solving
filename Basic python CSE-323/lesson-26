@@ -1,0 +1,10 @@
+# Reusable function to calculate the area of a rectangle
+def rectangle_area(width, height):
+    return width * height
+
+def is_even(num):
+    return num % 2 == 0
+
+print("Area of rectangle (5x3):", rectangle_area(5, 3))
+print("Is 4 even?", is_even(4))
+print("Is 7 even?", is_even(7))

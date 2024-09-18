@@ -1,0 +1,35 @@
+#mathematical expression
+#Addition:
+print(10+3)
+
+#Sub:
+print(10-3)
+
+#Multiflication:
+print(10*3)
+
+#division:
+print(10/3)
+
+print(10//3)
+print(10%3)
+print(10**3)
+
+#diff. ty of add:
+x=10
+#x=x+3
+x +=3
+print(x)
+
+#diff. type of sub:
+y=10
+#y=y-3
+y -=3
+print(y)
+
+#diff. type of solution:
+z= 5+ 3 * 3**2
+print(z)
+
+p= (5+3) * 3**2
+print(p)

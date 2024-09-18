@@ -1,0 +1,5 @@
+#user input in python:
+
+name = input('What is your name: ')
+address = input('Where are you from: ')
+print(name + " Lives in " + address)

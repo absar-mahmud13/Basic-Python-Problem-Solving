@@ -1,0 +1,32 @@
+# Create a list
+my_list = [1, 2, 3, 4, 5]
+
+my_list.append(6)
+print("After append:", my_list)
+
+my_list.insert(2, 10)
+print("After insert:", my_list)
+
+my_list.remove(10)
+print("After remove:", my_list)
+
+removed_item = my_list.pop(3) 
+print("Removed item:", removed_item)
+print("After pop:", my_list)
+
+if 4 in my_list:
+    index = my_list.index(4)
+    print("Index of 4:", index)
+else:
+    print("4 is not in the list")
+
+count = my_list.count(2)
+print("Count of 2:", count)
+my_list.sort()
+print("After sort:", my_list)
+my_list.reverse()
+print("After reverse:", my_list)
+copied_list = my_list.copy()
+print("Copied list:", copied_list)
+my_list.clear()
+print("After clear:", my_list)

@@ -1,0 +1,8 @@
+name="Debabarata Mallick"
+code_name ="DM"
+message = name+' ('+code_name+') teaches AI'
+
+#Debabarata Mallick (DM) teachers AI
+print(message)
+message_1=f"{name} ({code_name}) teaches AI"
+print(message_1)

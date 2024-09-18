@@ -1,0 +1,13 @@
+# Create a tuple : unpacking
+my_tuple = (10, 20, 30)
+
+a, b, c = my_tuple
+
+print("a:", a)
+print("b:", b)
+print("c:", c)
+
+# Example with list unpacking
+my_list = [1, 2, 3]
+x, y, z = my_list
+print("x:", x, "y:", y, "z:", z)

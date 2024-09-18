@@ -1,0 +1,13 @@
+# Function to find unique elements in a list:
+def find_unique(elements):
+    unique_elements = []
+    for item in elements:
+        if item not in unique_elements:
+            unique_elements.append(item)
+    return unique_elements
+
+my_list = [1, 2, 2, 3, 4, 4, 5, 6, 6, 7]
+
+unique_list = find_unique(my_list)
+print("Original list:", my_list)
+print("Unique elements:", unique_list)

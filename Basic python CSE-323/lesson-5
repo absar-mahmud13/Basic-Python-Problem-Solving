@@ -1,0 +1,5 @@
+# Absar's Python Course
+
+course_name = 'Artificial Intelligence and Expert System'
+print(course_name[10:19])
+print(course_name[-10:-19])

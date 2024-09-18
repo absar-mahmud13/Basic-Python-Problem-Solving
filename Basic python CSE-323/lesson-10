@@ -1,0 +1,10 @@
+#if statement:
+is_rainy = False
+is_sunny = False
+
+if is_rainy:
+    print('Carry an Umbrella')
+elif is_sunny:
+    print('No need to carry the umbrella')
+else:
+    print('Please check weather')

@@ -1,0 +1,20 @@
+# Define a function that adds two numbers
+def add(a, b):
+    return a + b
+
+def greet(name="Absar"):
+    print(f"Hello, {name}!")
+
+def get_user_info():
+    name = "Mahmud"
+    age = 23
+    return name, age
+    
+result = add(5, 3)
+print("Addition result:", result)
+
+greet("Mahmud")
+greet() 
+
+name, age = get_user_info()
+print(f"Name: {name}, Age: {age}")

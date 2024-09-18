@@ -1,0 +1,14 @@
+#comparision_operators
+price = 20
+
+if price == 20:
+    print('We will buy it')
+
+if price != 20:
+    print('The price is not 20')
+    
+if price > 20:
+    print('It is expensive')
+
+if price < 20:
+    print('It is cheaper')

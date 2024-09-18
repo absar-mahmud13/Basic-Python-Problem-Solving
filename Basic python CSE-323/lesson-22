@@ -1,0 +1,13 @@
+# Create and modify a dictionary
+person = {"name": "Absar", "age": 23, "city": "Chittagong"}
+print("Name:", person["name"])
+
+person["job"] = "Engineer"
+person["age"] = 23
+print("Updated dictionary:", person)
+
+for key, value in person.items():
+    print(f"{key}: {value}")
+
+person.pop("city", None)
+print("After removing city:", person)

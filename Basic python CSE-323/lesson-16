@@ -1,0 +1,15 @@
+# List of grocery items
+grocery_list = ['egg', 'rice', 'sugar', 'bread']
+print("Grocery List:")
+print(grocery_list)
+
+price = [5, 10, 15, 1, 3, 7]
+
+max_price = price[0]
+
+for value in price:
+    if value > max_price:
+        max_price = value
+
+print("Maximum Price:")
+print(max_price)
